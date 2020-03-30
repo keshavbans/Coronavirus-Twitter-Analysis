@@ -1,0 +1,21 @@
+> prop.table(table(tweetWHO$isRetweet))*100
+
+   FALSE     TRUE 
+60.91644 39.08356 
+> prop.table(table(tweetINDIA$isRetweet))*100
+
+   FALSE     TRUE 
+57.74059 42.25941 
+> prop.table(table(tweetUSA$isRetweet))*100
+
+FALSE  TRUE 
+ 62.5  37.5 
+> prop.table(table(tweetUK$isRetweet))*100
+
+   FALSE     TRUE 
+55.55556 44.44444 
+> prop.table(table(tweetAUS$isRetweet))*100
+
+FALSE  TRUE 
+ 62.5  37.5 
+>
